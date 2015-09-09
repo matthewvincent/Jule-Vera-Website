@@ -26,7 +26,8 @@ body {
 .nav-button {
 	background-color: transparent;
 	border: none;
-	margin: 4.2px;
+	margin-top: 4.2px;
+  margin-right: .7em;
 }
 .navbar-text {
 	color: white;
@@ -140,7 +141,7 @@ body {
   left: 0;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 600px) {
   .social-wrapper {
     position: absolute;
     top: auto;
