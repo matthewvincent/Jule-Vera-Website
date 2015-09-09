@@ -64,7 +64,7 @@ body {
 #social li {
     list-style-type: none;
     text-align: center;
-    padding: 5px;
+    padding: .5em;
     display: inline-block;
     margin: auto;
 
@@ -188,6 +188,12 @@ body {
 @media (device-width: 375px) and (device-height: 559px) {
   .nav-links {
     margin-left: 0px;
+  }
+  .nav-button {
+    background-color: transparent;
+    border: none;
+    margin-top: 4.2px;
+    margin-right: .4em;
   }
  
 }
