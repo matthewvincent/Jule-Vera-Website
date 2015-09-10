@@ -190,7 +190,8 @@ body {
     background-color: transparent;
     border: none;
     margin-top: 4.2px;
-    margin-right: 3px;
+    margin-right: 1px;
+    margin-left: 0px;
   }
  
 }
