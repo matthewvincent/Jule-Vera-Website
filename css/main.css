@@ -185,10 +185,7 @@ body {
   }
 }
 
-@media (device-width: 375px) and (device-height: 559px) {
-  .nav-links {
-    margin-left: 0px;
-  }
+@media (max-width: 375px) {
   .nav-button {
     background-color: transparent;
     border: none;
