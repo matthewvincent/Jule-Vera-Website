@@ -12,6 +12,9 @@ body {
   background-size: cover;
   color: white;
 }
+.modal-content {
+   text-decoration: none !important;
+}
 .nav-links {
 	display: table;
 	float: left;
@@ -78,6 +81,9 @@ body {
     right: 0;
 
 }
+  .social-wrapper {
+    padding-right: 55px;
+  }
 
 .social-button {
     height: 40px;
@@ -121,18 +127,18 @@ body {
 }
 .modal-header {
   border-bottom: 0px;
+  margin-top: 100px;
+  text-decoration: none !important;
 }
 .modal-title {
   font-size: 30px;
 }
 .close {
   color: white;
-  text-shadow: none;
-  font-weight: 700;
-  font-size: 30px;
-  margin:auto;
   opacity: 1;
-  line-height: 1.42857143;
+}
+.modal-header .close {
+  font-size: 40px;
 }
 .footer {
   position: absolute;
@@ -188,10 +194,27 @@ body {
 @media (max-width: 375px) {
   .nav-button {
     background-color: transparent;
+    padding: 11px;
     border: none;
     margin-top: 4.2px;
     margin-right: 1px;
     margin-left: 0px;
   }
+  #social li {
+    list-style-type: none;
+    text-align: center;
+    padding: .6em;
+    display: inline-block;
+    margin: auto;
+  }
+  .social-footer {
+    text-align: center;
+    padding: auto;
+  }
+    .social-wrapper {
+    padding-right: 55px;
+  }
+
  
 }
+
