@@ -13,7 +13,10 @@ body {
   color: white;
 }
 .modal-content {
-   text-decoration: none !important;
+   text-decoration: none !important; 
+}
+.tour-wrapper {
+  overflow: scroll;
 }
 .nav-links {
 	display: table;
@@ -30,7 +33,7 @@ body {
 	background-color: transparent;
 	border: none;
 	margin-top: 4.2px;
-  margin-right: .7em;
+  margin-right: .95em;
 }
 .navbar-text {
 	color: white;
@@ -214,7 +217,6 @@ body {
     .social-wrapper {
     padding-right: 55px;
   }
-
  
 }
 
