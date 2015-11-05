@@ -248,6 +248,7 @@ body {
     max-width: 100px;
   }
   #buyModal h1 {
+    margin-left: 30px;
     font-size: 18px;
   }
   #buyModal h3 {
