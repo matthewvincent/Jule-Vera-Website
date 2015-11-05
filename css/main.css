@@ -204,6 +204,9 @@ body {
 #buyModal {
   background-color: rgba(0, 0, 0, .7)
 }
+#buyModal h1 {
+  margin-left: 25px;
+}
 .buy-body {
   text-align: center;
 }
