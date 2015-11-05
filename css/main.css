@@ -193,7 +193,26 @@ body {
     margin-top: 4em;
   }
 }
-
+.itunes {
+  margin: 20px;
+  max-width: 80px;
+}
+.spotify {
+  margin: 20px;
+  max-width: 250px;
+}
+#buyModal {
+  background-color: rgba(0, 0, 0, .7)
+}
+.buy-body {
+  text-align: center;
+}
+#album-cover {
+  max-width: 400px;
+}
+.buy-modal-header {
+  text-align: center;
+}
 @media (max-width: 375px) {
   .nav-button {
     background-color: transparent;
@@ -217,6 +236,22 @@ body {
     .social-wrapper {
     padding-right: 55px;
   }
- 
-}
+  #album-cover {
+    max-width: 200px;
+  }
+  .itunes {
+    margin: 20px;
+    max-width: 35px;
+  }
+  .spotify {
+    margin: 20px;
+    max-width: 100px;
+  }
+  #buyModal h1 {
+    font-size: 18px;
+  }
+  #buyModal h3 {
+    font-size: 18px;
+  }
+} 
 

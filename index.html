@@ -24,14 +24,23 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link href="path/to/skate.min.css" rel="stylesheet">
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        <script type='text/javascript' src='http://widget.bandsintown.com/javascripts/bit_widget.js'></script>
-        <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            document.write("\<script src='//ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js' type='text/javascript'>\<\/script>");
+        </script>
+        <script src="js/main.js"></script>
         <script src="path/to/skate.js"></script>
+        <script type='text/javascript' src='http://widget.bandsintown.com/javascripts/bit_widget.js'></script>
+        
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+
+   
+
      <div class="container social-wrapper">
               <ul id="social">
                 <li>
@@ -149,17 +158,47 @@
           </div>
         </div>
       </div>
+    </div> <!-- /container -->  
+
+      <div class="modal fade visible" id="buyModal">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-header buy-modal-header">
+          <a class="close" data-dismiss="modal">×</a>
+
+            <h1>"FRIENDLY ENEMIES"</h1>
+              <h3>OUT NOW</h3>
+            
+          </div>
+          <div class="modal-body buy-body">
+            
+            <img src="img/PNE170_Cover.jpg" id="album-cover">
+            <br>
+            <a target="_blank" href="https://itunes.apple.com/us/album/friendly-enemies/id990006932">
+              <img src="img/ITunes_12.2_Apple_Music.png" class="itunes">
+            </a>
+            <a target="_blank" href="https://play.spotify.com/album/0LtlbWqAOM7IuGQiS97wpz">
+              <img src="img/Spotify2015.png" class="spotify">
+            </a>
+          </div>
+        </div>
+      </div>
 
   
-    </div> <!-- /container -->  
     <footer class="footer"><p>© 2015 Pure Noise Records</p></footer>     
 
+       
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
 
         <script src="js/main.js"></script>
+         <script type="text/javascript">
+            $(window).load(function(){
+                $('#buyModal').modal('show');
+            });
+        </script>
+      
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
