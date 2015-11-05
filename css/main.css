@@ -254,5 +254,8 @@ body {
   #buyModal h3 {
     font-size: 18px;
   }
+  #buyModal {
+    margin-top: -40px;
+  }
 } 
 
